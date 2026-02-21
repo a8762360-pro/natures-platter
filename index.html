@@ -17,53 +17,68 @@
 </head>
 
 <body>
-    <!-- header section -->
-    <section class="max-w-screen-xl mx-auto mb-14 mt-4 ">
-        <div>
-            <div class="navbar bg-base-100 shadow-sm lg:flex lg:justify-between">
-                <!-- small nav -->
-                <div class="navbar-start justify-between  w-full lg:w-30">
-                    <img src="c2-assets/logo-header.png" alt="">
-                    <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
+    <header class=" bg-linear-to-b from-white to-red-50">
+        <!-- navbar section -->
+        <section class="max-w-screen-xl mx-auto mb-24 mt-4 ">
+            <div>
+                <div class="navbar 100 shadow-sm lg:flex lg:justify-between">
+                    <!-- small nav -->
+                    <div class="navbar-start justify-between  w-full lg:w-30">
+                        <img src="c2-assets/logo-header.png" alt="">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <div>
+                                <ul tabindex="-1"
+                                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                                    <li><a>Product</a></li>
+                                    <li><a>Services</a></li>
+                                    <li><a>Contact us</a></li>
+                                </ul>
+                            </div>
                         </div>
-                        <div>
-                            <ul tabindex="-1"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                    </div>
+                    <!-- lg nav -->
+                    <div class="navbar-center hidden lg:flex borde justify-between w-200 ">
+                        <ul class="menu menu-horizontal px-1  mr-24 text-lg">
                             <li><a>Product</a></li>
                             <li><a>Services</a></li>
                             <li><a>Contact us</a></li>
                         </ul>
+                        <div class="flex justify-between items-center gap-7">
+                            <div class="flex gap-5">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <div class="navbar-end space-x-6">
+                                <a class="btn border border-green-600 rounded-lg">Login</a>
+                                <a class="btn bg-green-600 text-white rounded-lg">Register</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- lg nav -->
-                <div class="navbar-center hidden lg:flex borde justify-between w-200 ">
-                    <ul class="menu menu-horizontal px-1  mr-24 text-lg">
-                        <li><a>Product</a></li>
-                        <li><a>Services</a></li>
-                        <li><a>Contact us</a></li>
-                    </ul>
-                    <div class="flex justify-between items-center gap-7">
-                        <div class="flex gap-5">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                            <i class="fa-solid fa-cart-shopping"></i>
-                        </div>
-                        <div class="navbar-end space-x-6">
-                            <a class="btn border border-green-500 rounded-lg">Login</a>
-                            <a class="btn bg-green-500 text-white rounded-lg">Register</a>
-                        </div>
-                    </div>
-                </div>
-                
             </div>
-        </div>
-    </section>
+        </section>
+        <!-- count section -->
+        <section class="max-w-screen-xl mx-auto">
+            <!-- text section -->
+            <div class="text-center px-5 ">
+                <h1 class="text-4xl lg:text-5xl font-bold mb-4 lg:mb-7">Freshness <span class="text-green-600">You Can <br>
+                        Count</span> On, Prices You’ll Love!</h1>
+                <p class="text-gray-500 lg:w-6/10 text-center mx-auto text-lg lg:text-xl mb-5 ">Shop your daily essentials at unbeatable prices. From fresh produce to pantry
+                    staples, we’ve got you covered every day!</p>
+            </div>
+            <!-- image -->
+            <div class="flex justify-center mx-auto">
+                <img src="c2-assets/hero-vegetables.png" alt="">
+            </div>
+        </section>
+    </header>
 </body>
 
 </html>
